@@ -1,0 +1,162 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-11-13, 22:13:50
+    Author     : TeKa
+*/
+
+
+/*
+Ogólne (jak w bootstrapie)
+*/
+
+div.container
+{
+    /*display: table;*/
+}
+
+div.row{
+  /*clear: both;*/
+  /*display: table-row;*/
+}
+
+div.col--12, div.col--11, div.col--10, div.col--9,div.col--8, div.col--7, div.col--6,
+div.col--5, div.col--4, div.col--3, div.col--2, div.col--1
+{
+    float: left;
+    /*display: table-column;*/
+    content: 'KOL';
+}
+
+div.col--12 
+{
+    width: 100%;
+}
+div.col--11 
+{
+    width: 91.66666667%;
+}
+div.col--10 
+{
+    width: 83.33333333%;
+}
+div.col--9 
+{
+    width: 75%;
+}
+div.col--8 
+{
+    width: 66.66666667%;
+}
+div.col--7 
+{
+    width: 58.33333333%;
+}
+div.col--6 
+{
+    width: 50%;
+}
+div.col--5 
+{
+    width: 41.66666667%;
+}
+div.col--4 
+{
+    width: 33.33333333%;
+}
+div.col--3 
+{
+    width: 25%;
+}
+div.col--2 
+{
+    width: 16.66666667%;
+}
+div.col--1 
+{
+    width: 8.33333333%;
+}
+
+.header
+{    
+    height: 100px;
+    text-align: center;
+}
+
+.header .left, .header .right
+{
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.header .center
+{
+    background-color: #bef9e6;
+    height: 100%;
+}
+
+.content
+{
+    text-align: center;
+}
+
+.content .left
+{
+    background-color: gainsboro;
+}
+
+.content .center
+{
+    /*background-color: #f6f3f3;*/
+    background-color: rgb(129,198, 143);
+}
+
+.content .right
+{
+    background-color: gainsboro;
+    /*background-color: rgb(129,198, 143);*/
+}
+
+.footer
+{
+    text-align: center;
+    height: 55px;
+    background-color: aquamarine;
+}
+
+.logo
+{
+    /*background-image: url('/images/logo.jpg'); */
+    background-color: rgb(129,198, 143);
+    float: left;
+}
+
+.search
+{
+    float: left;
+}
+
+.row
+{
+    width: 100%;
+}
+
+.float-left
+{
+    float: left;
+}
+
+.float-right
+{
+    float: right;
+}
+
+.float-contour
+{
+    float: contour;
+}
+
+
